@@ -1,11 +1,11 @@
-const defaultPort = 4000;
+const defaultPort = 4000
 
 interface Environment {
   apollo: {
-    introspection: boolean,
+    introspection: boolean
     playground: boolean
-  },
-  port: number|string;
+  }
+  port: number | string
 }
 
 export const environment: Environment = {
@@ -14,4 +14,4 @@ export const environment: Environment = {
     playground: process.env.APOLLO_PLAYGROUND === 'true'
   },
   port: process.env.PORT || defaultPort
-};
+}

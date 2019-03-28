@@ -26,6 +26,7 @@
     "@types/webpack-env": "^1.13.9",
     "clean-webpack-plugin": "^2.0.1",
     "dotenv": "^7.0.0",
+    "prettier": "^1.16.4",
     "ts-loader": "^5.3.3",
     "typescript": "^3.3.4000",
     "webpack": "^4.29.6",
