@@ -1,0 +1,40 @@
+{
+  "name": "apollo-quickstart",
+  "version": "0.0.1",
+  "author": "Tyler Knipfer <knipferrc@gmail.com>",
+  "description": "Apollo and typescript starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knipferrc/apollo-quickstart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knipferrc/apollo-quickstart/issues"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "typescript",
+    "api"
+  ],
+  "scripts": {
+    "build": "webpack --config webpack.$NODE_ENV.js",
+    "start": "node dist/main",
+    "start:env": "node --require dotenv/config dist/main",
+    "format": "prettier --write \"**/*.{tsx,ts,css,scss,md,js,json,html}\""
+  },
+  "devDependencies": {
+    "@types/webpack-env": "^1.13.9",
+    "clean-webpack-plugin": "^2.0.1",
+    "dotenv": "^7.0.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.4000",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-merge": "^4.2.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.2.0"
+  }
+}
