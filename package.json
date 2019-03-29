@@ -17,9 +17,9 @@
     "api"
   ],
   "scripts": {
-    "build": "webpack --config webpack.$NODE_ENV.js",
-    "start": "node dist/main",
-    "start:env": "node --require dotenv/config dist/main",
+    "build:dev": "webpack --config webpack.development.js",
+    "build:prod": "webpack --config webpack.production.js",
+    "start": "node --require dotenv/config dist/main",
     "format": "prettier --write \"**/*.{tsx,ts,css,scss,md,js,json,html}\""
   },
   "devDependencies": {
