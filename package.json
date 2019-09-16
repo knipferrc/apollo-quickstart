@@ -23,15 +23,15 @@
     "format": "prettier --write \"**/*.{tsx,ts,css,scss,md,js,json,html}\""
   },
   "devDependencies": {
-    "@types/graphql": "^14.2.0",
-    "dotenv": "^7.0.0",
-    "nodemon": "^1.18.10",
-    "prettier": "^1.16.4",
-    "ts-node": "^8.0.3",
-    "typescript": "^3.4.1"
+    "@types/graphql": "^14.5.0",
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.2",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
   },
   "dependencies": {
-    "apollo-server": "^2.4.8",
-    "graphql": "^14.2.0"
+    "apollo-server": "^2.9.3",
+    "graphql": "^14.5.6"
   }
 }
